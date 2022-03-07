@@ -1,0 +1,189 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: white;
+    opacity: 0.9;
+}
+.header{
+    width: 100%;
+    height: 69px;
+    background-color: white;
+    display: block;
+   position: fixed;
+   top: 0px;
+   border-bottom: 1px solid rgb(26, 22, 20);
+   z-index: 99;
+   }
+   .title-image {
+       height: 50px;
+       float: left;
+   padding-left: 10px;
+   position: relative;
+   top: 10px;
+   }
+   .list{
+       float: right;
+       height: 100px;
+       margin: 0 auto;
+   }
+   .list li {
+       float: left;
+       display: table;
+       padding: 0px 20px;
+       height: 100%;
+       position: relative;
+       top: 22px;
+       
+       color: black;
+       text-shadow: 1.5px 1.5px #1d2227;
+   }
+   .home{
+  
+  
+    background-image: url(./image/clay-banks-z_DkoUqgx6M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: brightness(0.9);
+    height: 700px;
+    max-width: 12500px;
+    margin: 40px auto 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+  }
+  
+  .h {
+    text-align: center;
+    margin: auto;
+    width: 200%;
+    text-align: center;
+    margin-top: 70mm;
+    
+    
+  }
+  .h h5 {
+    opacity: 0.7;
+    font-family: 'Tiempos Fine';
+    color: black;
+  }
+  .h1 {
+    font-family: 'Tiempos Fine';
+    font-size: 2.5cm;
+    position: relative;
+    bottom: 60px;
+    color: black;
+  }
+  .h2 {
+    font-family: 'Tiempos Fine';
+    position: relative;
+    bottom: 130px;
+    font-size: 1cm;
+    opacity: 0.8;
+    color: black;
+    
+  }
+  p.dctp {
+    color: black;
+} 
+h5.dcth5{
+  color: black;
+}
+h1.dcth1{
+  color: black;
+  text-align: center;
+}
+  h2.dcth2{
+    color: black;
+    text-align: center;
+  }
+  h4.dcth4{
+    color: #000;
+  }
+  .grid{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 40px 20px ;
+    justify-items: center;
+  }
+  .a {
+    width: 250px;
+    height: 207.5px;
+    border-radius: 30px;
+  }
+  @media only screen and (max-width: 790px){
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      }
+      .a {
+        width: 440px;
+        border-radius: 30px;
+        height: 365.2px;
+      }
+      .b{
+        display: none;
+      }
+  }
+  @media only screen and (max-width: 525px){
+    .list{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 460px){
+    .a {
+      width: 320px;
+      height: 264.2px;
+    }
+  }
+  .ft{
+    display: inline-flex;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    justify-items: center;
+  }
+  .trend img {
+    height: 	288px;
+    width: 192px;
+    padding: 10px;
+  }
+  h3{
+    color: #000;
+    text-align: center;
+  }
+  h2{
+    color: #000;
+    text-align: center;
+  }
+  @media only screen and (max-width: 600px){
+    .map{
+      width: 400px
+    }
+  }
+  .map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .end{
+    margin-top: 50px;
+   border-top: 1px solid rgb(7, 7, 7);
+   height: 30px;
+  }
+  .cpr{
+    float: left;
+  }
+  .nb{
+    float: right;
+  }
+  span{
+    color: #000;
+  }
